@@ -1,0 +1,18 @@
+.member {
+  padding: 80px 0;
+  text-align: center;
+  &__head {
+    color: $black-color;
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-family: $family;
+  }
+  &__text {
+    color: $gray-color;
+    width: 70%;
+    margin: auto;
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: $family;
+  }
+}

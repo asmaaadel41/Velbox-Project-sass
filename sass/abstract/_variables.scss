@@ -1,0 +1,22 @@
+$blue-color: #0b5be0;
+$sub-blue-color: #796eff;
+$black-color: #222222;
+$sub-Black-color: #3d3c46;
+$gray-color: #6c757d;
+$section-padding: 20px 0;
+$sub-white-color: #f7f9fe;
+$btn-gray-color: #ebecff;
+$font-size: 20px;
+$family: "Helvetica";
+$large-padding-secrion: 50px 0;
+
+$contain: container;
+.#{$contain} {
+  width: 75%;
+  margin: auto;
+}
+
+$relative: relative;
+.#{$relative} {
+  position: relative;
+}

@@ -1,0 +1,16 @@
+.about__services {
+  position: unset;
+  & .card__row {
+    .card {
+      .hr {
+        @include toggle-line-before(0 auto, 0, 67%, 41%);
+      }
+      .hr2 {
+        @include toggle-line-before(0 auto, 0, 17%, 41%);
+      }
+      .hr3 {
+        @include toggle-line-before(0 auto, 0, -33%, 41%);
+      }
+    }
+  }
+}

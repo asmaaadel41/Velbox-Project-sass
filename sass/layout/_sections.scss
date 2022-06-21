@@ -1,0 +1,49 @@
+.services {
+  font-family: $family;
+  padding: $section-padding;
+  @include absolute(-115px, 0, 0, 0);
+  .card__row {
+    padding: $section-padding;
+    @include d-flex;
+    .card {
+      padding: 45px;
+      background-color: white;
+      margin-right: $font-size;
+      .card__icon {
+        color: $blue-color;
+        font-size: 4em;
+      }
+      .card__header {
+        color: $black-color;
+        padding: $section-padding;
+        letter-spacing: 1px;
+        font-size: $font-size;
+        margin-bottom: $font-size;
+      }
+      .hr {
+        @include toggle-line-before(0 auto, 0, 66%, -100%);
+      }
+      .hr2 {
+        @include toggle-line-before(0 auto, 0, 16%, -100%);
+      }
+      .hr3 {
+        @include toggle-line-before(0 auto, 0, -34%, -100%);
+      }
+      .card__text {
+        font-family: $family;
+        color: $gray-color;
+        font-size: 17px;
+        margin-top: 30px;
+      }
+    }
+  }
+  .head__services {
+    width: 500px;
+    font-size: 36px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    span {
+      color: $blue-color;
+    }
+  }
+}

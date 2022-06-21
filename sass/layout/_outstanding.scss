@@ -1,0 +1,35 @@
+.outstanding {
+  padding: 70px 0;
+  background-color: $sub-white-color;
+  &__head {
+    font-size: 44px;
+    text-align: center;
+    color: $black-color;
+    margin: $large-padding-secrion;
+  }
+  .statistics {
+    text-align: center;
+    @include d-flex;
+    font-weight: normal;
+    .stat {
+      padding: 10px;
+    }
+    &__num {
+      color: $blue-color;
+      font-size: 5em;
+    }
+    &__operator {
+      font-size: $font-size;
+      color: $gray-color;
+    }
+    &__head {
+      font-size: $font-size;
+      margin: $section-padding;
+    }
+    &__text {
+      font-size: 20px;
+      line-height: 1.5;
+      color: $gray-color;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.company__checked__course {
+  margin: $large-padding-secrion;
+  .checked__head {
+    font-size: $font-size;
+    font-weight: normal;
+    i {
+      margin-right: 15px;
+    }
+  }
+}

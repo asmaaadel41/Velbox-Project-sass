@@ -1,0 +1,11 @@
+.navbar {
+  border-bottom: 1px solid $sub-white-color;
+  padding: $section-padding;
+
+  .navbar__nav {
+    @include d-flex;
+    .nav__logo {
+      padding-top: 5px;
+    }
+  }
+}

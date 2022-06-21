@@ -1,0 +1,37 @@
+.about__par {
+  color: $gray-color;
+  font-size: 15px;
+  margin: $section-padding;
+  font-family: $family;
+}
+.creative {
+  background-color: $sub-white-color;
+  padding: 100px 0 90px;
+  text-align: center;
+  &__header {
+    font-size: 4em;
+    color: $black-color;
+  }
+}
+.company {
+  padding: 100px 0 0;
+  &__content {
+    @include d-flex;
+    &__img {
+      width: 50%;
+      margin-right: 35px;
+      img {
+        width: 100%;
+      }
+    }
+    &__body {
+      width: 50%;
+    }
+    &__header {
+      font-size: 24px;
+      color: $black-color;
+      font-family: $family;
+      font-weight: normal;
+    }
+  }
+}

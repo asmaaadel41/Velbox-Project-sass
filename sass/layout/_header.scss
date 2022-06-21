@@ -1,0 +1,31 @@
+.header {
+  background-color: $sub-white-color;
+  font-family: $family;
+  padding: $large-padding-secrion;
+  padding-bottom: 130px;
+  .header__content {
+    @include d-flex;
+  }
+  .header__body {
+    margin-right: 30px;
+    width: 75%;
+    h1 {
+      font-size: 50px;
+      font-weight: bold;
+      margin-bottom: 30px;
+      letter-spacing: 2px;
+      font-family: $family;
+    }
+    .header__text {
+      color: $gray-color;
+      font-size: $font-size;
+      line-height: 2;
+      margin: $section-padding;
+    }
+  }
+  .header__img {
+    img {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.services {
+  &__content {
+    @include d-flex;
+    &__courses {
+      margin-right: 20px;
+      width: 50%;
+      .card {
+        @include d-flex;
+        margin-bottom: $font-size;
+        border: 2px solid $sub-white-color;
+        padding: $font-size;
+        &__icon {
+          margin-right: 25px;
+          padding: 30px 0;
+          i {
+            font-size: 40px;
+            color: $blue-color;
+          }
+        }
+        &__text {
+          font-family: $family;
+          .card__header {
+            margin: $section-padding;
+            color: $black-color;
+          }
+          .card__par {
+            color: $gray-color;
+            line-height: 1.75;
+          }
+        }
+        &:hover {
+          background-color: $sub-white-color;
+          transition: all ease-in-out 0.3s;
+        }
+      }
+    }
+    &__img {
+      width: 50%;
+    }
+  }
+}

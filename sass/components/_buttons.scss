@@ -1,0 +1,29 @@
+.btn {
+  border: none;
+  outline: none;
+  border-radius: 30px;
+}
+.btn__dark {
+  min-width: 200px;
+  background-color: $sub-blue-color;
+  padding: 18px 20px;
+  margin: 10px 0;
+  color: $sub-white-color;
+  font-size: 18px;
+  font-weight: 600;
+  i {
+    margin-left: 10px;
+  }
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px 4px rgb(211, 211, 211);
+    transform: translateY(-7px);
+    transition: all ease-in-out 0.3s;
+  }
+}
+.btn__light {
+  padding: 10px 15px;
+  background-color: $btn-gray-color;
+  color: $black-color;
+  margin: $large-padding-secrion;
+}
