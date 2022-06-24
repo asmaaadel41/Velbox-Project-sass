@@ -3,13 +3,13 @@
   & .card__row {
     .card {
       .hr {
-        @include toggle-line-before(0 auto, 0, 67%, 41%);
+        @include toggle-line-before(0 auto, 0, 66%, 50%);
       }
       .hr2 {
-        @include toggle-line-before(0 auto, 0, 17%, 41%);
+        @include toggle-line-before(0 auto, 0, 16%, 50%);
       }
       .hr3 {
-        @include toggle-line-before(0 auto, 0, -33%, 41%);
+        @include toggle-line-before(0 auto, 0, -32%, 50%);
       }
     }
   }
